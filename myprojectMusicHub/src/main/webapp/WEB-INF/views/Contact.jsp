@@ -57,7 +57,7 @@ text-align: center;
 </head>
 <body>
 
-   <div class="wrapper">
+  <div class="wrapper">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -70,8 +70,11 @@ text-align: center;
           </button>
            <div class="collapse navbar-collapse" id="navigation">
             <ul class="nav navbar-nav navbar-right">
-              
-               
+                <li><a href="index.jsp">Home</a></li>
+                <li><a href="AboutUs.html">AboutUs</a></li>
+                    <li><a href="Contact.html">ContactUs</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    
             </ul>
         </div>
        
@@ -80,10 +83,10 @@ text-align: center;
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navigation">
             <ul class="nav navbar-nav navbar-right">
-            
-                <li><a href="index.jsp">Home</a></li>
-           
-             
+             <li><a href="#">MusicHub</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Register.html">Register</a></li>
+       
             </ul>
         </div>
       </div>
@@ -104,7 +107,7 @@ text-align: center;
  </div> </div> <div class="col-md-6"> <div class="form-group"> 
  <label for="name"> Message</label>
   <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea> </div> </div> <div class="col-md-12"> <button type="submit" class="btn btn-primary pull-right" id="btnContactUs"> Send Message</button> </div> </div> </form> </div> </div> <div class="col-md-4"> <form> <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend> 
-  <address> <strong><h3>Dynamisch IT Pvt. Ltd.</h3></strong><br>1st Floor, 'Ashutosh' Bunglow, Opp. A. J. Classic,<br> Behind Aparna House, Near Mahalaxmi Lawns,<br> Karve Nagar, Pune - 411052<br> Phone: +91 20 6933 5533<br> E-mail: <a href="mailto:#">contact@DynamischIT.com</a> </address> </form> </div> </div> </div>
+  <address> <strong><h3>NIIT MusicHub Ltd.</h3></strong><br>2nd Floor, Sai Plaza, Opp. Ghatkopar Stn,<br> Ghatkopar (E),<br> Mumbai<br> Phone: 022-42277606<br> E-mail: <a href="mailto:#">jaya.shivani@niit.com</a> </address> </form> </div> </div> </div>
     <div class="row">
         <div class="col-sm-12">
             <footer style="text-align:center;">

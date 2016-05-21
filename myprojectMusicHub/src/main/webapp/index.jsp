@@ -119,8 +119,15 @@ text-align: center;
         
          
         </div>
+        
       </div>
-
+ <div class="item">
+        <img src="resources/images/flute.jpg" alt="Chania" width="100%" height="200">
+        <div class="carousel-caption">
+         
+        
+        </div>
+      </div>
       
     </div>
 

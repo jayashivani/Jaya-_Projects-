@@ -109,5 +109,22 @@ body {
       <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
     </form>
   </div>
+  <div class="clearfix visible-sm-block"></div>
+<!-- <div class="row">
+    <footer class="footer text-center" style="text-align:center;">
+      <div class="col-sm-12">
+            <small>© Copyright 2016. All Rights reserved</small>
+        </div>
+    </footer>
+    </div>-->
+     <div class="row">
+        <div class="col-sm-12">
+            <footer style="text-align:center;">
+                <p>© Copyright reserved </p>
+            </footer>
+        </div>
+    </div>
+</div>
+</div>
 </body>
 </html>
