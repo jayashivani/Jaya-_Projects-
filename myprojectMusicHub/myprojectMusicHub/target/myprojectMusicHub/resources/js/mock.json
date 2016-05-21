@@ -1,0 +1,6 @@
+[{"id":"Strings","first_name":"Guitar","last_name":1000,"hobby":50,"Description":"Plucked strings instruments","image": "resources/images/guitar.jpg"},
+{"id":"Vocal","first_name":"Flute","last_name":2000,"hobby":90,"Description":"Plucked strings instruments","image": "resources/images/acc.jpg"},
+{"id":"Strings","first_name":"Sitar","last_name":5000,"hobby":100,"Description":"Plucked strings instruments","image": "resources/images/acc.jpg"},
+{"id":"Extra","first_name":"Tabla","last_name":8000,"hobby":45,"Description":"Plucked strings instruments","image": "resources/images/piano.jpg"},
+{"id":"Strings","first_name":"Violen","last_name":5600,"hobby":57,"Description":"Plucked strings instruments","image": "resources/images/acc.jpg"}
+]
