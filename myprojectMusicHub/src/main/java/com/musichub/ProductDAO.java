@@ -1,11 +1,10 @@
 package com.musichub;
 
-import java.util.List;
+
 
 public interface ProductDAO {
-public void AddProduct(ProductBean p);
+public String AddProduct(Product p);
 
-public List ShowProducts();
-public void RemoveProduct(Integer  ProductId);	
+	
 
 }

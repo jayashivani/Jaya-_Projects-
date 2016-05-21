@@ -4,7 +4,7 @@ package com.musichub;
 	import java.io.IOException;
 
 import org.springframework.stereotype.Controller;
-	import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -54,11 +54,22 @@ import org.springframework.web.servlet.ModelAndView;
 			//System.out.println(new datajs());
 			
 			mav.addObject("searchKey",searchKey);
-			mav.addObject("dataValue", new ProductList());
+		//	mav.addObject("dataValue", new ProductList());
 			
 			return mav ;
 		}
-		
-	}
+		@RequestMapping("/addproduct.html")
+		public ModelAndView addProduct()
+		{
+		ModelAndView model=new ModelAndView("addproduct");
+		String status="success";
+		Product p = new Product(101, "Strings", "Guitar", 4578, 56, "description", "image");
 
+		String result= new ProductDAOImpl().AddProduct(p);
+		model.addObject("status", p);
+		return model;
+		}
+
+
+			 }
 
